@@ -18,6 +18,7 @@
 		FC87D31F13D5C05E009CCF72 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC87D31B13D5C05E009CCF72 /* Background@2x.png */; };
 		FC87D32013D5C05E009CCF72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC87D31C13D5C05E009CCF72 /* Default.png */; };
 		FC87D32113D5C05E009CCF72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC87D31D13D5C05E009CCF72 /* Default@2x.png */; };
+		FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = FCA534F713D5CCB0000DB0B0 /* timer.c */; };
 		FCE81ECA13D5662500D917F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81EC913D5662500D917F8 /* UIKit.framework */; };
 		FCE81ECC13D5662500D917F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECB13D5662500D917F8 /* Foundation.framework */; };
 		FCE81ECE13D5662500D917F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECD13D5662500D917F8 /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 		FC87D31B13D5C05E009CCF72 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
 		FC87D31C13D5C05E009CCF72 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC87D31D13D5C05E009CCF72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCA534F713D5CCB0000DB0B0 /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		FCA534F813D5CCB1000DB0B0 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		FCE81EC513D5662500D917F8 /* Waiting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waiting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE81EC913D5662500D917F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCE81ECB13D5662500D917F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 				FCE81EE413D5662500D917F8 /* FirstView.xib */,
 				FCE81EE713D5662500D917F8 /* SecondView.xib */,
 				FCE81ED013D5662500D917F8 /* Supporting Files */,
+				FCA534F713D5CCB0000DB0B0 /* timer.c */,
+				FCA534F813D5CCB1000DB0B0 /* timer.h */,
 			);
 			path = Waiting;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 				FCE81EDA13D5662500D917F8 /* WaitingAppDelegate.m in Sources */,
 				FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */,
 				FCE81EE313D5662500D917F8 /* SecondViewController.m in Sources */,
+				FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
