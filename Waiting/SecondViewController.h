@@ -13,4 +13,6 @@
     
 }
 
+-(IBAction)about;
+
 @end

@@ -11,6 +11,17 @@
 
 @implementation SecondViewController
 
+-(IBAction)about {
+    UIAlertView *about = [[UIAlertView alloc]
+                          initWithTitle: @"About"
+                          message: @"This app was designed by Water Bottle Studios.  If you need support please email us at waterbottlestudios@gmail.com.  If you can could you try and donate, we are a small shop and rely on donations and ads for profit."
+                          delegate: nil
+                          cancelButtonTitle: @"Close"
+                          otherButtonTitle: nil];
+    [about show];
+    [about release];
+}
+
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
