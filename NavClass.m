@@ -3,7 +3,7 @@
 //  Waiting
 //
 //  Created by Dylan on 11-07-20.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Water Bottle Studios. All rights reserved.
 //
 
 #import "NavClass.h"
