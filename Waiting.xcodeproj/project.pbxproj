@@ -26,7 +26,6 @@
 		FCE81ECE13D5662500D917F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECD13D5662500D917F8 /* CoreGraphics.framework */; };
 		FCE81ED413D5662500D917F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCE81ED213D5662500D917F8 /* InfoPlist.strings */; };
 		FCE81ED713D5662500D917F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81ED613D5662500D917F8 /* main.m */; };
-		FCE81EDA13D5662500D917F8 /* WaitingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81ED913D5662500D917F8 /* WaitingAppDelegate.m */; };
 		FCE81EDD13D5662500D917F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE81EDB13D5662500D917F8 /* MainWindow.xib */; };
 		FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81EDF13D5662500D917F8 /* FirstViewController.m */; };
 		FCE81EE613D5662500D917F8 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE81EE413D5662500D917F8 /* FirstView.xib */; };
@@ -57,8 +56,6 @@
 		FCE81ED313D5662500D917F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCE81ED513D5662500D917F8 /* Waiting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waiting-Prefix.pch"; sourceTree = "<group>"; };
 		FCE81ED613D5662500D917F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCE81ED813D5662500D917F8 /* WaitingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaitingAppDelegate.h; sourceTree = "<group>"; };
-		FCE81ED913D5662500D917F8 /* WaitingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaitingAppDelegate.m; sourceTree = "<group>"; };
 		FCE81EDC13D5662500D917F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FCE81EDE13D5662500D917F8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FCE81EDF13D5662500D917F8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 				FCAED0E413D75B52003479DD /* NavClass.h */,
 				FCAED0E513D75B52003479DD /* NavClass.m */,
 				FCAED0E613D75B52003479DD /* NavClass.xib */,
-				FCE81ED813D5662500D917F8 /* WaitingAppDelegate.h */,
-				FCE81ED913D5662500D917F8 /* WaitingAppDelegate.m */,
 				FCE81EDB13D5662500D917F8 /* MainWindow.xib */,
 				FCE81EDE13D5662500D917F8 /* FirstViewController.h */,
 				FCE81EDF13D5662500D917F8 /* FirstViewController.m */,
@@ -236,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE81ED713D5662500D917F8 /* main.m in Sources */,
-				FCE81EDA13D5662500D917F8 /* WaitingAppDelegate.m in Sources */,
 				FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */,
 				FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */,
 				FCAED0E713D75B52003479DD /* NavClass.m in Sources */,
