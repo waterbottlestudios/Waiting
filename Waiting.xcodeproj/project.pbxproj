@@ -19,6 +19,8 @@
 		FC87D32013D5C05E009CCF72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC87D31C13D5C05E009CCF72 /* Default.png */; };
 		FC87D32113D5C05E009CCF72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC87D31D13D5C05E009CCF72 /* Default@2x.png */; };
 		FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = FCA534F713D5CCB0000DB0B0 /* timer.c */; };
+		FCAED0E713D75B52003479DD /* NavClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAED0E513D75B52003479DD /* NavClass.m */; };
+		FCAED0E813D75B52003479DD /* NavClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCAED0E613D75B52003479DD /* NavClass.xib */; };
 		FCE81ECA13D5662500D917F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81EC913D5662500D917F8 /* UIKit.framework */; };
 		FCE81ECC13D5662500D917F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECB13D5662500D917F8 /* Foundation.framework */; };
 		FCE81ECE13D5662500D917F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECD13D5662500D917F8 /* CoreGraphics.framework */; };
@@ -27,9 +29,7 @@
 		FCE81EDA13D5662500D917F8 /* WaitingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81ED913D5662500D917F8 /* WaitingAppDelegate.m */; };
 		FCE81EDD13D5662500D917F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE81EDB13D5662500D917F8 /* MainWindow.xib */; };
 		FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81EDF13D5662500D917F8 /* FirstViewController.m */; };
-		FCE81EE313D5662500D917F8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE81EE213D5662500D917F8 /* SecondViewController.m */; };
 		FCE81EE613D5662500D917F8 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE81EE413D5662500D917F8 /* FirstView.xib */; };
-		FCE81EE913D5662500D917F8 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE81EE713D5662500D917F8 /* SecondView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +46,9 @@
 		FC87D31D13D5C05E009CCF72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FCA534F713D5CCB0000DB0B0 /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
 		FCA534F813D5CCB1000DB0B0 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		FCAED0E413D75B52003479DD /* NavClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavClass.h; path = ../NavClass.h; sourceTree = "<group>"; };
+		FCAED0E513D75B52003479DD /* NavClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavClass.m; path = ../NavClass.m; sourceTree = "<group>"; };
+		FCAED0E613D75B52003479DD /* NavClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavClass.xib; path = ../NavClass.xib; sourceTree = "<group>"; };
 		FCE81EC513D5662500D917F8 /* Waiting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waiting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE81EC913D5662500D917F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCE81ECB13D5662500D917F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,10 +62,7 @@
 		FCE81EDC13D5662500D917F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FCE81EDE13D5662500D917F8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FCE81EDF13D5662500D917F8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FCE81EE113D5662500D917F8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FCE81EE213D5662500D917F8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FCE81EE513D5662500D917F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		FCE81EE813D5662500D917F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,15 +136,15 @@
 		FCE81ECF13D5662500D917F8 /* Waiting */ = {
 			isa = PBXGroup;
 			children = (
+				FCAED0E413D75B52003479DD /* NavClass.h */,
+				FCAED0E513D75B52003479DD /* NavClass.m */,
+				FCAED0E613D75B52003479DD /* NavClass.xib */,
 				FCE81ED813D5662500D917F8 /* WaitingAppDelegate.h */,
 				FCE81ED913D5662500D917F8 /* WaitingAppDelegate.m */,
 				FCE81EDB13D5662500D917F8 /* MainWindow.xib */,
 				FCE81EDE13D5662500D917F8 /* FirstViewController.h */,
 				FCE81EDF13D5662500D917F8 /* FirstViewController.m */,
-				FCE81EE113D5662500D917F8 /* SecondViewController.h */,
-				FCE81EE213D5662500D917F8 /* SecondViewController.m */,
 				FCE81EE413D5662500D917F8 /* FirstView.xib */,
-				FCE81EE713D5662500D917F8 /* SecondView.xib */,
 				FCE81ED013D5662500D917F8 /* Supporting Files */,
 				FCA534F713D5CCB0000DB0B0 /* timer.c */,
 				FCA534F813D5CCB1000DB0B0 /* timer.h */,
@@ -213,7 +213,6 @@
 				FCE81ED413D5662500D917F8 /* InfoPlist.strings in Resources */,
 				FCE81EDD13D5662500D917F8 /* MainWindow.xib in Resources */,
 				FCE81EE613D5662500D917F8 /* FirstView.xib in Resources */,
-				FCE81EE913D5662500D917F8 /* SecondView.xib in Resources */,
 				FC87D31313D5C047009CCF72 /* Icon-72.png in Resources */,
 				FC87D31413D5C047009CCF72 /* Icon-Small-50.png in Resources */,
 				FC87D31513D5C047009CCF72 /* Icon-Small.png in Resources */,
@@ -225,6 +224,7 @@
 				FC87D31F13D5C05E009CCF72 /* Background@2x.png in Resources */,
 				FC87D32013D5C05E009CCF72 /* Default.png in Resources */,
 				FC87D32113D5C05E009CCF72 /* Default@2x.png in Resources */,
+				FCAED0E813D75B52003479DD /* NavClass.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +238,8 @@
 				FCE81ED713D5662500D917F8 /* main.m in Sources */,
 				FCE81EDA13D5662500D917F8 /* WaitingAppDelegate.m in Sources */,
 				FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */,
-				FCE81EE313D5662500D917F8 /* SecondViewController.m in Sources */,
 				FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */,
+				FCAED0E713D75B52003479DD /* NavClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +268,6 @@
 				FCE81EE513D5662500D917F8 /* en */,
 			);
 			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		FCE81EE713D5662500D917F8 /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCE81EE813D5662500D917F8 /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
