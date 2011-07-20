@@ -21,6 +21,7 @@
 		FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = FCA534F713D5CCB0000DB0B0 /* timer.c */; };
 		FCAED0E713D75B52003479DD /* NavClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAED0E513D75B52003479DD /* NavClass.m */; };
 		FCAED0E813D75B52003479DD /* NavClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCAED0E613D75B52003479DD /* NavClass.xib */; };
+		FCAED0F613D770D7003479DD /* WaitingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAED0F513D770D7003479DD /* WaitingAppDelegate.m */; };
 		FCE81ECA13D5662500D917F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81EC913D5662500D917F8 /* UIKit.framework */; };
 		FCE81ECC13D5662500D917F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECB13D5662500D917F8 /* Foundation.framework */; };
 		FCE81ECE13D5662500D917F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE81ECD13D5662500D917F8 /* CoreGraphics.framework */; };
@@ -48,6 +49,8 @@
 		FCAED0E413D75B52003479DD /* NavClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavClass.h; path = ../NavClass.h; sourceTree = "<group>"; };
 		FCAED0E513D75B52003479DD /* NavClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavClass.m; path = ../NavClass.m; sourceTree = "<group>"; };
 		FCAED0E613D75B52003479DD /* NavClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavClass.xib; path = ../NavClass.xib; sourceTree = "<group>"; };
+		FCAED0F413D770D7003479DD /* WaitingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingAppDelegate.h; sourceTree = "<group>"; };
+		FCAED0F513D770D7003479DD /* WaitingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingAppDelegate.m; sourceTree = "<group>"; };
 		FCE81EC513D5662500D917F8 /* Waiting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waiting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE81EC913D5662500D917F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCE81ECB13D5662500D917F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 		FCE81ECF13D5662500D917F8 /* Waiting */ = {
 			isa = PBXGroup;
 			children = (
+				FCAED0F413D770D7003479DD /* WaitingAppDelegate.h */,
+				FCAED0F513D770D7003479DD /* WaitingAppDelegate.m */,
 				FCAED0E413D75B52003479DD /* NavClass.h */,
 				FCAED0E513D75B52003479DD /* NavClass.m */,
 				FCAED0E613D75B52003479DD /* NavClass.xib */,
@@ -234,6 +239,7 @@
 				FCE81EE013D5662500D917F8 /* FirstViewController.m in Sources */,
 				FCA534F913D5CCB1000DB0B0 /* timer.c in Sources */,
 				FCAED0E713D75B52003479DD /* NavClass.m in Sources */,
+				FCAED0F613D770D7003479DD /* WaitingAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
